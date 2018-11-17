@@ -1,5 +1,6 @@
 
-
+##노후주택 데이터에 위도,경도컬럼을 생성한 후 geocoding으로 위도,경도를 채우는 작업
+##위도,경도값이 나오지않는 비정상 데이터는 0으로 채운 후 계속 진행.
 
 from Db_Server import db_server
 from Model import *
